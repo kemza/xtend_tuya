@@ -44,8 +44,6 @@ def get_tuya_platform_descriptors(platform: Platform) -> Any:
             return LIGHTS_TUYA
         case Platform.LOCK:
             return {}
-        case Platform.MOWER:
-            return ["gcj"]
         case Platform.NUMBER:
             return NUMBERS_TUYA
         case Platform.SELECT:

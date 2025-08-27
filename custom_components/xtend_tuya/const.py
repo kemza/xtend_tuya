@@ -101,7 +101,6 @@ PLATFORMS = [
     Platform.SWITCH,
     Platform.TIME,
     Platform.VACUUM,
-    Platform.MOWER,
 ]
 
 
