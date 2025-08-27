@@ -212,4 +212,12 @@ except ImportError:
         TuyaSceneEntity as TuyaSceneEntity,
         SharingScene as TuyaScene,
     )
+try:
+    from custom_components.tuya.mower import ( # type: ignore
+        TuyaMowerEntity as TuyaMowerEntity,
+    )
+except ImportError:
+    from homeassistant.components.tuya.mower import (
+        TuyaMowerEntity as TuyaMowerEntity,
+    )    
  """

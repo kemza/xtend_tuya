@@ -19,7 +19,7 @@ from .entity import (
 )
 from .ha_tuya_integration.tuya_integration_imports import (
     TuyaMowerEntity,
-)
+
 
 MOWERS: list[str] = []
 

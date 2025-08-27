@@ -95,6 +95,9 @@ from homeassistant.components.tuya.switch import (
 from homeassistant.components.tuya.vacuum import (
     TuyaVacuumEntity as TuyaVacuumEntity,
 )
+from homeassistant.components.tuya.mower import (
+    TuyaMowerEntity as TuyaMowerEntity,
+)
 import homeassistant.components.tuya as tuya_integration  # noqa: F401
 
 # from homeassistant.components.tuya import (
